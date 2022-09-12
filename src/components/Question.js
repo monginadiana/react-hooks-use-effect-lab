@@ -10,7 +10,7 @@ function Question({ question, onAnswered }) {
       clearInterval(timeOut);
     };
 
-    }, [])
+    },[timeRemaining])
 
 
   if (timeRemaining === 0){
